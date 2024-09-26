@@ -1,0 +1,29 @@
+/**
+ * Theme Name:  Название темы Jazz Theme
+ * Description: Тема для сайта услуг интернет-маркетинга
+ *
+ * Theme URI:   URL темы. Пр: http://wordpress.org/themes/twenty
+ * Author:      Extreme
+ * Author URI:  https://wp-kama.ru
+ *
+ * Tags:        black, brown, orange
+ * Text Domain: extreme-web
+ *
+ * License:     Лицензия. Пр: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Version:     1.0
+ */
+
+body{
+    background-color: bisque;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar{
+    margin-right: 30px;
+}
