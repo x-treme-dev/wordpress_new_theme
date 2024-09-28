@@ -1,6 +1,6 @@
 /**
  * Theme Name:  Название темы Jazz Theme
- * Description: Тема для сайта услуг интернет-маркетинга
+ * Description: Тестовый сайт для обучения разработке на ядре wordpress
  *
  * Theme URI:   URL темы. Пр: http://wordpress.org/themes/twenty
  * Author:      Extreme
@@ -22,8 +22,30 @@ body{
 .main{
     display: flex;
     justify-content: center;
+    
 }
 
-.sidebar{
+
+.sidebar-left{
+    width:30vw;
     margin-right: 30px;
+}
+
+.sidebar_label{
+    color:  #454545;
+}
+
+.sidebar-right{
+    display:flex;
+    justify-content: center;
+    width:30vw;
+}
+
+.content{
+    width:60vw;
+}
+
+.message{
+    display:flex;
+    justify-content: center;
 }

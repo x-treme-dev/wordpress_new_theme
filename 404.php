@@ -1,10 +1,11 @@
 <?php get_header(); ?>
 
-<main>
- 	<h1>404 NOT FOUND</h1>
+  <div class='message'>
+  <h1>404 NOT FOUND</h1>
+  </div>
+ 	
 
- 	<?php echo get_calendar(); ?>
-</main>
+ 	 
 
  
 
